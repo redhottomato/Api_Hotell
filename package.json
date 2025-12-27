@@ -1,0 +1,37 @@
+{
+	"name": "api-ca",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www",
+		"dev": "nodemon app.js",
+		"test": "jest"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"cookie-parser": "~1.4.4",
+		"cors": "^2.8.5",
+		"debug": "~2.6.9",
+		"dotenv": "^16.0.3",
+		"ejs": "^3.1.8",
+		"express": "^4.18.2",
+		"http-errors": "~1.6.3",
+		"jsend": "^1.1.0",
+		"jsonwebtoken": "^9.0.2",
+		"morgan": "~1.9.1",
+		"mysql": "^2.18.1",
+		"mysql2": "^3.1.2",
+		"sequelize": "^6.29.0",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1"
+	},
+	"description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/5gkShciH)",
+	"main": "app.js",
+	"author": "Kim Are Andresen Ore",
+	"license": "ISC",
+	"keywords": [],
+	"devDependencies": {
+		"jest": "^30.2.0",
+		"supertest": "^7.1.4"
+	}
+}
