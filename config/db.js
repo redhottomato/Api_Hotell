@@ -13,7 +13,7 @@ const sequelize = new Sequelize(
     {
         host: process.env.HOST,
         dialect: process.env.DIALECT || 'mysql',
-        port: Number(process.env.PORT || 3306),
+        port: Number(process.env.PORT ?? 3306),
         logging: isTest ? false : console.log, // ✅ disable SQL logs in test
     }
     );
